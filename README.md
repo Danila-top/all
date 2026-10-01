@@ -1,11 +1,26 @@
-# all
+# Project Hub
 
-A central index/workspace repository for the Danila-top GitHub projects.
+The central coordination repository for Danila-top's nine-repository AI ecosystem.
 
-## Purpose
+## What belongs here
 
-Use this repository to hold project maps, cross-repository notes, and small coordination artifacts rather than duplicating large source archives.
+- repository maps
+- cross-project architecture
+- governance
+- shared decisions
+- links between projects
+- high-level roadmaps
 
-## Safety
+Large source archives and experimental code belong in their dedicated repositories.
 
-Do not store passwords, API keys, access tokens, private keys, or other secrets here.
+## Current ecosystem
+
+**Research core:** Multiagent-experiment + AI-agents-laboratory  
+**Context core:** AI-memory-and-context  
+**Capability core:** AI-tools-and-integrations  
+**ML core:** Machine-learning-experiments  
+**Knowledge archive:** AI-archive  
+**Presentation:** AI-document-website  
+**Experiment scratchpad:** Scratch-lab
+
+Start with `REPOSITORY_INDEX.md`.
