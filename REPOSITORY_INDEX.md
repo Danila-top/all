@@ -1,31 +1,48 @@
 # Repository index
 
-The GitHub account currently contains nine repositories used as one project ecosystem.
+The nine GitHub repositories form one coordinated project ecosystem.
 
-| GitHub repository | Logical project name | Primary purpose |
+| Repository | Role | Main output |
 |---|---|---|
-| Danila-top/all | Project Hub | Cross-repository index, governance, and coordination |
-| Danila-top/AI-triumvirate | AI Triumvirate | Multi-agent AI research and coordination |
-| Danila-top/HTML-site-my-document | AI Document Website | Public-facing HTML presentation |
-| Danila-top/al | AI Archive | Large archival documents and text exports |
-| Danila-top/- | Scratch Lab | Temporary prototypes and disposable experiments |
-| Danila-top/name | AI Agents Laboratory | Agent design, planning, delegation, reflection, evaluation |
-| Danila-top/na | AI Memory & Context | Persistent memory, retrieval, context architecture |
-| Danila-top/naa | AI Tools & Integrations | Connectors, APIs, tools, deployment, computer control |
-| Danila-top/nam | Machine Learning Experiments | ML experiments, benchmarks, reproducibility |
+| [project-hub](https://github.com/Danila-top/project-hub) | Project Hub | architecture, governance, cross-repository map |
+| [Multiagent-experiment](https://github.com/Danila-top/Multiagent-experiment) | Multi-agent research | experiments and coordination protocols |
+| [AI-document-website](https://github.com/Danila-top/AI-document-website) | Document website | public-facing presentation |
+| [AI-archive](https://github.com/Danila-top/AI-archive) | AI archive | large source documents and historical material |
+| [Scratch-lab](https://github.com/Danila-top/Scratch-lab) | Scratch laboratory | temporary prototypes |
+| [AI-agents-laboratory](https://github.com/Danila-top/AI-agents-laboratory) | Agent laboratory | agent designs, loops, evaluation |
+| [AI-memory-and-context](https://github.com/Danila-top/AI-memory-and-context) | Memory & context | memory schemas, retrieval, context architecture |
+| [AI-tools-and-integrations](https://github.com/Danila-top/AI-tools-and-integrations) | Tools & integrations | connectors, APIs, automation, tool protocols |
+| [Machine-learning-experiments](https://github.com/Danila-top/Machine-learning-experiments) | ML laboratory | reproducible ML experiments and benchmarks |
 
-## Ecosystem flow
+## Data flow
 
-`Scratch Lab -> AI Agents -> Memory & Context -> Tools & Integrations -> AI Triumvirate`
+`Scratch-lab`
+-> prototype
 
-Machine-learning experiments can support any layer and are tracked independently in `nam`.
+`AI-agents-laboratory`
+-> define agent
 
-Large source archives remain isolated in `al`, while stable material intended for presentation is maintained in `HTML-site-my-document`.
+`AI-memory-and-context`
+-> give the agent durable context
 
-## Naming note
+`AI-tools-and-integrations`
+-> give the agent capabilities
 
-The GitHub object names `name`, `na`, `naa`, and `nam` are currently placeholders. Their intended thematic names are defined above. The current GitHub connector does not expose a repository-rename operation, so these display names should be changed through GitHub's repository settings when convenient.
+`Machine-learning-experiments`
+-> measure or train components
 
-## Safety
+`Multiagent-experiment`
+-> combine agents and evaluate coordination
 
-Do not commit passwords, API keys, access tokens, private keys, or other authentication secrets.
+`AI-document-website`
+-> publish stable results
+
+`AI-archive`
+-> preserve source material
+
+`project-hub`
+-> coordinate the whole system
+
+## Change discipline
+
+Inspect first, write minimally, verify after writing, and preserve provenance. Never commit secrets.
